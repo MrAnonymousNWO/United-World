@@ -4,6 +4,8 @@
 
 The concept is presented as the **legal counterpart to the technological singularity**. Just as technology can reach a threshold where old human systems can no longer keep pace, law can also reach a threshold where classical state-based structures become obsolete. In this model, **Juridical Singularity is the irreversible reset of public international law**. It is the point where the previous world of many sovereigns gives way to a new and comprehensive legal unity. This description is consistent with the supplied working paper, which defines legal singularity as the extreme condition in which sovereignty, rights, obligations, and territorial authority are consolidated into a single juridical entity. 
 
+You are invited to visit the [United‑World Wiki](https://github.com/MrAnonymousNWO/United-World/wiki) to explore documentation, research materials, and ongoing project updates.
+
 ## The Legal Meaning
 
 At the center of the doctrine stands the idea that **law is no longer merely reformed, but structurally transformed**. Traditional international law depends on plurality: many states, many treaty partners, many courts, and many legal personalities. Juridical Singularity ends that plurality. It creates a condition in which treaty chains, state succession, and connected legal relationships merge into one universal framework. The older logic of diplomacy, jurisdictional conflict, and sovereign separation becomes secondary to a new logic of **unity, continuity, and total legal integration**. 
