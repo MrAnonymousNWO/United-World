@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Technocracy — WSD Research Portal</title>
+    <meta name="description" content="Electric Technocracy: Direct Digital Democracy, ASI governance, machine taxation, Universal Basic Income, post-scarcity civilisation.">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#080c14">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="WSD Research Portal">
+    <meta property="og:title" content="Electric Technocracy — WSD Research Portal">
+    <meta property="og:description" content="Electric Technocracy: Direct Digital Democracy, ASI governance, machine taxation, Universal Basic Income, post-scarcity civilisation.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Electric Technocracy — WSD Research Portal">
+    <meta name="twitter:description" content="Electric Technocracy: Direct Digital Democracy, ASI governance, machine taxation, Universal Basic Income, post-scarcity civilisation.">
+    <link rel="canonical" href="https://wsdportal-dp3tbzbb.manus.space/electric-technocracy.html">
+    <link rel="alternate" hreflang="en" href="https://wsdportal-dp3tbzbb.manus.space/electric-technocracy.html">
+    <link rel="alternate" hreflang="de" href="https://wsdportal-dp3tbzbb.manus.space/electric-technocracy_de.html">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif;
+            background-color: #080c14;
+            color: #d4d4d4;
+            line-height: 1.7;
+            font-size: 16px;
+        }
+
+        h1 {
+            font-size: clamp(2.25rem, 6vw, 4rem);
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 1.5rem;
+            letter-spacing: -0.02em;
+        }
+
+        h2 {
+            font-size: clamp(1.5rem, 3vw, 2.25rem);
+            font-weight: 600;
+            color: #00d4ff;
+            margin-top: 2.5rem;
+            margin-bottom: 1.25rem;
+            border-bottom: 2px solid rgba(0, 212, 255, 0.3);
+            padding-bottom: 0.75rem;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #b8b8b8;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        p {
+            margin-bottom: 1.25rem;
+            color: #d4d4d4;
+            line-height: 1.8;
+        }
+
+        a {
+            color: #00d4ff;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(0, 212, 255, 0.5);
+            transition: all 0.2s ease;
+        }
+
+        a:hover {
+            color: #00ffff;
+            border-bottom-color: #00ffff;
+        }
+
+        header {
+            background-color: #0a0f1a;
+            border-bottom: 1px solid rgba(0, 212, 255, 0.2);
+            position: fixed;
+            top: 0;
+            transform: translateY(0);
+            transition: transform 0.3s ease;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+                 transition: transform 0.3s ease-in-out;}
+
+        header.hide {
+            transform: translateY(-100%);
+        }
+
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #00d4ff;
+            text-decoration: none;
+        }
+
+        nav {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            font-size: 0.9rem;
+            color: #b8b8b8;
+            border: none;
+            transition: color 0.2s ease;
+        }
+
+        nav a:hover {
+            color: #00d4ff;
+        }
+
+        .lang-switch {
+            background-color: rgba(0, 212, 255, 0.1);
+            border: 1px solid rgba(0, 212, 255, 0.3);
+            color: #00d4ff;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.2s ease;
+        }
+
+        .lang-switch:hover {
+            background-color: rgba(0, 212, 255, 0.2);
+            border-color: #00d4ff;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 7rem 2rem 3rem 2rem;
+        }
+
+        .intro {
+            font-size: 1.1rem;
+            color: #e0e0e0;
+            margin-bottom: 2.5rem;
+            padding: 1.5rem;
+            border-left: 4px solid #00d4ff;
+            background-color: rgba(0, 212, 255, 0.05);
+            border-radius: 4px;
+        }
+
+        section {
+            margin-bottom: 3rem;
+        }
+
+        .breadcrumb {
+            font-size: 0.9rem;
+            color: #808080;
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .breadcrumb a {
+            color: #00d4ff;
+            border: none;
+        }
+
+        footer {
+            background-color: #0a0f1a;
+            border-top: 1px solid rgba(0, 212, 255, 0.2);
+            margin-top: 4rem;
+            padding: 2rem;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h3 {
+            color: #00d4ff;
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section li {
+            margin-bottom: 0.75rem;
+        }
+
+        .footer-section a {
+            color: #b8b8b8;
+            border: none;
+            font-size: 0.9rem;
+        }
+
+        .footer-section a:hover {
+            color: #00d4ff;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(0, 212, 255, 0.2);
+            padding-top: 2rem;
+            text-align: center;
+            font-size: 0.85rem;
+            color: #808080;
+        }
+
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            nav {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 1rem;
+            }
+
+            main {
+                padding: 2rem 1rem;
+            }
+
+            h2 {
+                margin-top: 2rem;
+            }
+        }
+
+        @media print {
+            header, footer {
+                display: none;
+            }
+
+            body {
+                background-color: white;
+                color: black;
+            }
+
+            a {
+                color: #0066cc;
+                border: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">WSD Research Portal</a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="world-succession-deed-1400-98.html">WSD 1400/98</a>
+                <a href="juridical-singularity.html">Juridical Singularity</a>
+                <a href="electric-technocracy.html" style="color: #00d4ff; border-bottom: 2px solid #00d4ff;">Electric Technocracy</a>
+                <a href="kreuzbergkaserne.html">Kreuzbergkaserne</a>
+                <a href="age-of-transition.html">Age of Transition</a>
+                <a href="micronation.html">Micronation</a>
+                <a href="sources.html">Sources</a>
+                <a href="faq.html">FAQ</a>
+                
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="breadcrumb">
+            <a href="index.html">Research Archive</a> / Electric Technocracy
+        </div>
+
+        <h1>Electric Technocracy</h1>
+
+        <div class="intro">
+            <p>Electric Technocracy is the name given to the governance model proposed as the successor to the current state-based international order. It is not a utopian speculation but a detailed programmatic framework grounded in rigorous analysis of current technological trajectories.</p>
+        </div>
+
+        <section>
+            <h2>The Foundations of Electric Technocracy</h2>
+            <p>The Electric Technocracy framework rests on a single foundational premise: that the development of artificial superintelligence will render the current model of governance — human bureaucracies making decisions on the basis of incomplete information and competing interests — both inefficient and illegitimate. The response is not to resist ASI development but to design governance institutions that harness its capabilities in the service of human flourishing.</p>
+        </section>
+
+        <section>
+            <h2>Direct Digital Democracy</h2>
+            <p>Direct Digital Democracy is the political architecture of Electric Technocracy. It is distinguished from both representative democracy and technocracy by its commitment to direct participation: every citizen participates directly in the decisions that affect their lives, without the mediation of elected representatives or appointed experts. The enabling technology is the combination of secure digital identity systems, blockchain-based voting infrastructure, and ASI-powered deliberation platforms.</p>
+        </section>
+
+        <section>
+            <h2>ASI-Supported Governance</h2>
+            <p>ASI-supported governance is the administrative architecture of Electric Technocracy. It is distinguished by its commitment to human oversight: ASI systems provide analysis, modelling, and recommendations, but human citizens retain the authority to make final decisions. The role of ASI is analogous to the role of legal counsel in a court of law — providing the best available analysis while preserving human agency.</p>
+        </section>
+
+        <section>
+            <h2>Machine Taxation and the Post-Work Economy</h2>
+            <p>Machine taxation is the fiscal architecture of Electric Technocracy. It is the mechanism through which the productivity gains generated by the automation of labour are redistributed to the human citizens displaced by that automation. The revenue generated by machine taxation funds the Universal Basic Income — the social contract of the post-work economy.</p>
+        </section>
+
+        <section>
+            <h2>Post-Scarcity Civilisation</h2>
+            <p>Post-scarcity civilisation is the long-term vision of Electric Technocracy. It is the state of affairs in which the productive capacity of the economy — driven by ASI-powered automation — is sufficient to meet the material needs of every human being on the planet. The transition to post-scarcity civilisation requires deliberate institutional design to ensure that productivity gains are distributed equitably rather than concentrated in the hands of capital owners.</p>
+        </section>
+
+        <section>
+            <h2>The Legal Architecture</h2>
+            <p>The legal architecture of Electric Technocracy is grounded in the World Succession Deed 1400/98 and the concept of Juridical Singularity. Within this legal architecture, Electric Technocracy operates as the governance framework of the unified legal subject. The transition to Electric Technocracy will require the development of new legal frameworks for digital identity, algorithmic governance, machine taxation, and the redistribution of productive capacity.</p>
+        </section>
+
+        <section style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid rgba(0, 212, 255, 0.2);">
+            <h3>Related Pages</h3>
+            <p style="margin-top: 1rem;">
+                                <a href="world-succession-deed-1400-98.html">World Succession Deed 1400/98</a><br>
+                <a href="juridical-singularity.html">Juridical Singularity</a><br>
+                <a href="age-of-transition.html">Age of Transition</a><br>
+                <a href="sources.html">Sources & References</a><br>
+                <a href="faq.html">Frequently Asked Questions</a><br>
+            </p>
+        </section>
+    
+        <section class="links-section">
+            <h2>Related Resources</h2>
+            <ul class="links-list">
+                <li><a href="https://ep.ct.ws" target="_blank" rel="noopener noreferrer">Electric Technocracy</a></li>
+                <li><a href="https://doi.org/10.5281/zenodo.18028339" target="_blank" rel="noopener noreferrer">Foundations of Electric Technocracy</a></li>
+                <li><a href="https://doi.org/10.5281/zenodo.18012036" target="_blank" rel="noopener noreferrer">The Rise of the Electric Technocracy</a></li>
+                <li><a href="https://community.xo.je" target="_blank" rel="noopener noreferrer">Electric Technocracy Pioneers Community</a></li>
+                <li><a href="https://et-pioneer.github.io/Electric-Technocracy-Pioneers-Community/" target="_blank" rel="noopener noreferrer">Electric Technocracy Pioneers Community GitHub</a></li>
+                <li><a href="https://github.com/ET-Pioneer/Electric-Technocracy-Pioneers-Community/blob/4fe4bdf1b29b7534ca69b04fd1a993ce344d7682/pdf/english/Electric_Technocracy.pdf" target="_blank" rel="noopener noreferrer">Electric Technocracy PDF</a></li>
+                <li><a href="https://encyclopedia.pub/entry/59380" target="_blank" rel="noopener noreferrer">Electric Technocracy Encyclopedia</a></li>
+                <li><a href="https://chatgpt.com/g/g-69d8635591d48191adc315b8f2b8be32-electric-technocracy-a-new-form-of-government" target="_blank" rel="noopener noreferrer">Electric Technocracy GPT</a></li>
+            </ul>
+        </section>
+</main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Main Sites</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="sources.html">Sources</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Research</h3>
+                <ul>
+                    <li><a href="world-succession-deed-1400-98.html">WSD 1400/98</a></li>
+                    <li><a href="juridical-singularity.html">Juridical Singularity</a></li>
+                    <li><a href="electric-technocracy.html">Electric Technocracy</a></li>
+                    <li><a href="kreuzbergkaserne.html">Kreuzbergkaserne</a></li>
+                    <li><a href="age-of-transition.html">Age of Transition</a></li>
+                    <li><a href="micronation.html">Micronation</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3></footer>
+        
+
+        
+
+        <script>
+            let lastScrollTop = 0;
+            const header = document.querySelector('header');
+            
+            window.addEventListener('scroll', () => {
+                let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                
+                if (scrollTop > 100) {
+                    if (scrollTop > lastScrollTop) {
+                        header.style.transform = 'translateY(-100%)';
+                    } else {
+                        header.style.transform = 'translateY(0)';
+                    }
+                }
+                lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+            });
+        </script>
+</body>
+</html>
