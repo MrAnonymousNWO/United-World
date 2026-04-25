@@ -1,14 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://mranonymousnwo.github.io/United-World</loc><lastmod>2026-04-19</lastmod><priority>1.0</priority></url>
-  <url><loc>https://mranonymousnwo.github.io/United-World/world-succession-deed-1400-98.html</loc><lastmod>2026-04-19</lastmod><priority>0.8</priority></url>
-  <url><loc>https://mranonymousnwo.github.io/United-World/juridical-singularity.html</loc><lastmod>2026-04-19</lastmod><priority>0.8</priority></url>
-  <url><loc>https://mranonymousnwo.github.io/United-World/electric-technocracy.html</loc><lastmod>2026-04-19</lastmod><priority>0.8</priority></url>
-  <url><loc>https://mranonymousnwo.github.io/United-World/kreuzbergkaserne.html</loc><lastmod>2026-04-19</lastmod><priority>0.8</priority></url>
-  <url><loc>https://mranonymousnwo.github.io/United-World/age-of-transition.html</loc><lastmod>2026-04-19</lastmod><priority>0.8</priority></url>
-  <url><loc>https://mranonymousnwo.github.io/United-World/micronation.html</loc><lastmod>2026-04-19</lastmod><priority>0.8</priority></url>
-  <url><loc>https://mranonymousnwo.github.io/United-World/sources.html</loc><lastmod>2026-04-19</lastmod><priority>0.8</priority></url>
-  <url><loc>https://mranonymousnwo.github.io/United-World/faq.html</loc><lastmod>2026-04-19</lastmod><priority>0.8</priority></url>
-  <url><loc>https://github.com/MrAnonymousNWO/United-World</loc><lastmod>2026-04-19</lastmod><priority>0.6</priority></url>
-  <url><loc>https://github.com/MrAnonymousNWO/United-World/wiki</loc><lastmod>2026-04-19</lastmod><priority>0.6</priority></url>
+
+  <url>
+    <loc>https://mranonymousnwo.github.io/United-World/</loc>
+    <lastmod>2026-04-19</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://mranonymousnwo.github.io/United-World/world-succession-deed-1400-98.html</loc>
+    <lastmod>2026-04-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://mranonymousnwo.github.io/United-World/juridical-singularity.html</loc>
+    <lastmod>2026-04-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://mranonymousnwo.github.io/United-World/electric-technocracy.html</loc>
+    <lastmod>2026-04-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://mranonymousnwo.github.io/United-World/kreuzbergkaserne.html</loc>
+    <lastmod>2026-04-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://mranonymousnwo.github.io/United-World/age-of-transition.html</loc>
+    <lastmod>2026-04-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://mranonymousnwo.github.io/United-World/micronation.html</loc>
+    <lastmod>2026-04-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://mranonymousnwo.github.io/United-World/sources.html</loc>
+    <lastmod>2026-04-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://mranonymousnwo.github.io/United-World/faq.html</loc>
+    <lastmod>2026-04-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
